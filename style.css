@@ -1,0 +1,332 @@
+/*polices*/
+*{
+font-family: 'Raleway', sans-serif;
+}
+h1
+{
+font-weight: 700;
+font-size: 22px;
+line-height: 26px;
+margin: 0px;
+}
+h2
+{
+font-weight: 700;
+font-size: 17px;
+line-height: 20px;
+margin: 0px;
+}
+p
+{
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+margin: 0px;
+}
+/*Header*/
+.menuContainer1
+{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+flex-wrap: nowrap;
+margin-left:55px ;
+margin-top: 44px;
+}
+/*logo seulement*/
+#logo
+{
+
+display: flex;
+width: 61.09px;
+height: 19px;
+}
+/*Trouvez votre hébergement pour des vacances de rêve*/
+.titre__principal
+{
+  margin:63px 0px 55px 50px;  
+}
+/*formulaire*/
+.form
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 20px 0px 50px 50px;
+}
+#research
+{
+border: 1px solid #F2F2F2; 
+padding-left: 19px;
+}
+#button
+{
+background: #0065FC;
+color: #FFFFFF;
+border: 1px solid #0065FC;
+border-radius: 0px 15px 15px 0px;
+padding: 14px;
+}
+/*boutton localisation dans barre recherche*/
+.fa-sharp.fa-solid.fa-location-dot
+{
+    background: #F2F2F2;
+    color: #000000;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+    padding: 14px;  
+}
+/*mini menu en haut a droite*/
+#menu__Droite
+{
+display: flex;
+}
+.heberge
+{
+text-decoration: none;
+text-align: center;
+color: #0065FC;
+}
+.activite
+{
+text-decoration: none;
+color: #000000;
+margin-right: 77px;
+margin-left:67px
+}
+/*Plus de 500 logements sont
+ disponibles dans cette ville+
+ logo i */
+.phrase__info
+{
+    margin:50px 0px 37px 59px ;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;    
+}
+/*logo i */
+.fa-solid.fa-info
+{
+    display: flex;
+    justify-content: center;
+    
+    height: 24px;
+    width: 24px;
+    border: 1px solid #D9D9D9;
+    border-radius: 50%;    
+    margin-right: 11px;
+}
+.section__hebergement__plus__populaire
+{
+display: flex;
+flex-direction:row;
+flex-wrap: nowrap;
+}
+.menu__filtre
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    height: 50px;
+    width: 914px;
+    margin-left: 50px;
+}
+.soustitre__filtre
+{
+    margin-left: 10px;
+    margin-top: -2.5px;
+}
+.filtre
+{
+    display: flex;
+    align-items: center;
+    
+}
+.filtre__et__logo
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    padding: 15px;
+}
+.container__hebergement
+{
+    width: 880px;
+    height: 626px;
+    margin-left: 50px;
+    margin-right: 40px;
+    background: #F2F2F2;
+    border-radius: 20px;
+    }
+.titre__hebergement  
+{
+    margin: 40px 562px 23px 40px;
+    white-space: nowrap;
+}
+section +h1
+ {
+    
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+.hotel__list1
+{
+    display: grid;
+    grid-template-columns: repeat(3, 246px);
+    grid-template-rows: repeat(2, 199px);
+    grid-gap: 30px;
+    justify-content: center;
+    align-content: center;
+}
+.Chambres__Hebergement
+{
+  
+    background: #FFFFFF;
+    height: 199px;
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.photo__chambre__hebergement
+{
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 20px 0px 0px;
+    height: 124px;
+    width: 240px;
+}
+.afficher__plus
+{
+white-space: nowrap;
+margin: 10px 729px 46px 44px;
+}
+.section__plus__populaires
+{
+width: 420px;
+height: 625px;
+background: #F2F2F2;
+border-radius: 20px;
+}
+.container__article__populaire
+{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-top: 30px;
+    margin-left: 37px;
+    
+}
+.titre__populaire
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 37px;
+    margin-top: 41px;
+    margin-right: 42px;
+}
+.chambre__populaire
+{
+display: flex;
+flex-direction: row;
+background: #FFFFFF;
+border-radius: 20px;
+height: 144px;
+width: 334px;
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.photo__populaire
+{
+height: 135px;
+width: 132px;
+border-radius: 20px 0px 0px 20px;
+border: 5px solid #FFFFFF;
+}
+.section__activite__Marseille
+{
+width: 1337px;
+height: 493px;
+margin-top: 60px;
+margin-left: 50px;
+}
+.titre__activite
+{
+white-space: nowrap;
+margin: 60px 1178px 18.47px 0px;
+}
+.container__activite
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    
+}
+.Article__Activite
+{
+height: 444px;
+width: 302px;
+border-radius: 20px;
+background: #FFFFFF;
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.Image__Activite
+{
+height: 389px;
+width: 302px;
+border-radius: 20px 20px 0px 0px;
+}
+.soustitre__Activite
+{
+margin-left: 19px;
+}
+footer
+{
+    background: #F2F2F2;
+    margin-left: 50px;
+    margin-top: 61px;
+    height: 225px;
+    width: 1339px;
+}
+a 
+{
+    color: #000000;
+    text-decoration: none;
+}
+.foot
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-evenly;
+}
+.foot__child
+{
+    display: flex;
+    flex-direction:column;
+    gap: 12px;
+    margin-top: 45px;
+}
+.etoiles
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.etoiles__populaires
+{
+    display: flex;
+    
+flex-direction: row;
+    flex-wrap: nowrap;
+}
+.fa-solid 
+{
+color: #0065FC; 
+}
+.fa-duotone.fa-star
+{
+color: #F2F2F2;
+}
