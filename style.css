@@ -87,8 +87,20 @@ height: 19px;
 border: 1px solid #F2F2F2; 
 padding-left: 19px;
 width: 286px;
-
 }
+/* loupe caché, pour quelle réaparaisse
+en format phone*/
+#button2
+{
+    
+    visibility: hidden;
+}
+.fa-solid.fa-magnifying-glass
+{
+    visibility: hidden;
+    color: #FFFFFF;
+}
+
 .form input::placeholder {
     color: black;
     font-weight: 700;
@@ -327,9 +339,8 @@ margin:16px 13px 0px 15px ;
 {
 width: 1337px;
 height: 493px;
-margin-top: 60px;
-margin-left: 50px;
-margin-right: 53px;
+margin:60px 53px 0px 50px ;
+
 }
 #titre__activite
 {
@@ -365,11 +376,9 @@ margin-left: 19px;
 footer
 {
     background: #F2F2F2;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 61px;
+margin: 61px 50px 0px 50px;
     height: 225px;
-    width: 90%; 
+    width: 1339px;  
   
 }
 a 
@@ -379,10 +388,11 @@ a
 }
 .foot
 {
+    
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content:space-evenly;
+    justify-content:space-evenly; 
 }
 .foot__child
 {
@@ -391,5 +401,227 @@ a
     gap: 12px;
     margin-top: 45px;
 }
+/*format tablette*/
+@media (max-width: 992px) {
 
+.section__hebergement__plus__populaire
+{flex-direction:column;
+}
+.section__plus__populaires
+{
+height: 278px;
+margin: 53px 70px 70px 70px;
+width: 865px;
+}
+.menu__filtre{
+    margin-left: 70px;
+    width: 846px;
+}
+.container__hebergement {
+    margin-left: 70px;}
+.container__article__populaire
+{
+flex-direction:row;}
+    .soustexte__chambre__populaire 
+    {flex-wrap: nowrap;}
+    .etoiles__populaires{
+    margin-bottom: 10%;
+    margin-top: 0px;}
+    .section__plus__populaires {
+        padding-left: 20px;
+        margin-right: 70px;
+        
+        
+    }
 
+    
+    .chambre__populaire {
+        height: 45%;
+        width: 252px;}
+    .soustexte__chambre__populaire{
+        margin-top: 12px;
+    }
+    .section__activite__Marseille
+{
+width: 880px;
+height: 330px;
+margin:0px 73px 0px 73px;
+}
+.Article__Activite
+{
+height: 267px;
+width: 182px;
+
+}
+.Image__Activite
+{
+    height: 211px;
+width: 182px;}
+footer
+{
+width: 880px;
+margin-left: 70px;
+}}
+/*format telephone*/
+@media (max-width: 768px){
+.titre__principal  
+/*pour faire revenir le texte 
+a la ligne*/
+{ overflow-wrap: break-word;
+    width: 40%;
+    margin-left: 20px;
+}
+.menuContainer1
+{
+    display: block;    
+}
+#logo
+/*margin top de 20px
+marge gauche droite s'aligne au auto*/
+{margin: 20px 0px 50px 120px;}
+.activite {
+    margin-left: 91px;
+}
+#menu__droite
+{
+    display: block;
+    margin-left: 33px;
+}
+.form
+{
+    margin-left: 20px;
+}
+.menu__filtre
+{
+    height: 153px;
+    width: 334px;
+    margin-left: 20px;
+    flex-wrap: wrap;
+}
+.soustitre__filtre
+{
+    font-size: 11px;
+    line-height: 13px;
+}
+.filtre__et__logo
+{
+    width: 145px;
+    height: 17.12px;
+    padding: 19px 0px 18px 13px;
+}
+.filtre{
+margin-right: 90%;
+margin-left: 20px;
+margin-bottom: 15px;
+}
+#button {
+    content: "Recherchez";
+        font-size: 0;}
+
+.fa-solid.fa-magnifying-glass
+{
+    visibility: visible;
+    color: #8c2121;
+}
+/*inverser l'ordre
+des sections*/
+.section__hebergement__plus__populaire
+{
+flex-direction: column-reverse;
+}
+.section__plus__populaires 
+{
+    width: 375px;
+    height: 580px;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+.container__article__populaire 
+{
+    flex-direction: column;
+    align-items:start;
+    gap: 11px;
+    
+    
+}
+.chambre__populaire{
+    height: 144px;
+    width: 334px;
+    
+}
+#titre__populaire
+{
+ margin: 28px 21px 26px 20px;   
+}
+.container__hebergement {
+    width: 355px;
+    height: 1400px;
+    padding: 20px;
+    margin-left: 0px;
+    background-color: #cde689;
+
+}
+.grille__container__hebergement {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+#titre__hebergement {
+    margin: 26px 0px 19px 20px;
+}
+.Chambres__Hebergement {
+    background: #FFFFFF;
+    height: 199px;
+    width: 335px;}
+.photo__chambre__hebergement {
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 20px 0px 0px;
+    height: 124px;
+    width: 325px; }
+
+.container__activite {
+    
+    flex-direction: column;
+    
+    }
+
+    .section__activite__Marseille
+    {
+    height: auto;
+    width: auto;
+    
+    
+    margin:20px 0px 0px 20px ;
+}
+.Article__Activite 
+{
+    margin-bottom: 24px;
+    height: 190px;
+    width: 334px;
+    
+}
+.Image__Activite {
+    height: 134px;
+    width: 334px;
+
+}
+footer
+{
+  width: 377px;
+  height: auto;
+  margin: 0px;
+
+  
+}
+
+.foot
+{
+
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-left: 30px;
+
+    
+}
