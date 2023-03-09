@@ -495,30 +495,47 @@ a {
 
     .menu__container__1 {
         display: block;
+        margin: 0px;
     }
 
     #logo {
-        margin: 20px 0px 50px 120px;
+        margin: 20px 0px 50px 0px;
+
+
     }
 
     .activity {
         margin-left: 45.5px;
     }
 
+
     .small__header__menu {
-        margin-right: 45.5px;
+        margin: 0px;
+
+        padding-bottom: 23.09px;
+        box-sizing: border-box;
+        width: 50%;
+        border-bottom: 3px solid #F2F2F2;
+
     }
+
 
     #menu__right {
 
-        margin: 0px 0px 50px 0px;
-        height: 50px;
-        width: 100%;
+        margin: 0px;
+
+        width: 100vw;
+
     }
 
     .small__header__menu:hover {
+
         border-bottom: 3px solid #0065FC;
-        border-top: none;
+        border-top: solid #ffffff;
+        padding-bottom: 20.09px;
+
+
+
     }
 
     .form {
@@ -672,5 +689,6 @@ a {
         flex-wrap: nowrap;
         padding-left: 30px;
     }
+
 
 }
