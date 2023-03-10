@@ -36,8 +36,8 @@ p,
 #phrase__informative,
 #main__subtitle {
     font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 14px;
+    line-height: 16px;
     margin: 0px;
 }
 
@@ -257,7 +257,7 @@ section+h1 {
     height: 199px;
     width: 250px;
     border-radius: 20px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
 }
 
 .picture__child__lodging {
@@ -331,7 +331,7 @@ section+h1 {
     border-radius: 20px;
     height: 144px;
     width: 80%;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
 }
 
 .picture__popular {
@@ -383,7 +383,10 @@ pour mettre etoiles en bas */
     width: 302px;
     border-radius: 20px;
     background: #FFFFFF;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+
 }
 
 .picture__activity {
@@ -395,9 +398,9 @@ pour mettre etoiles en bas */
 
 .subtitle__activity {
 
-    padding: 8px 19px 0px 18px;
 
-    text-align: start;
+    padding: 5% 0px 5% 20px;
+
     white-space: wrap;
 }
 
@@ -491,6 +494,11 @@ a {
         height: 330px;
         margin: 0px 73px 0px 73px;
     }
+
+    .subtitle__activity {
+        padding: ;
+    }
+
 
     .article__activity {
         height: 267px;
