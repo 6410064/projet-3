@@ -1,9 +1,7 @@
 body {
-
     max-width: 1400px;
     /* centrage horizontal */
     margin: auto;
-    
 }
 
 /*polices*/
@@ -26,8 +24,7 @@ h3 {
     margin: 0px;
 }
 
-strong,
-#button {
+strong #button {
     font-weight: 800;
     font-size: 17px;
     line-height: 21px;
@@ -58,18 +55,13 @@ p,
 /*Header*/
 .menu__container__1 {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    flex-wrap: nowrap;
     margin-left: 55px;
-    max-width: 1294px;
 }
 
 /*logo seulement*/
 #logo {
     margin-top: 44px;
-    display: flex;
-    width: 61.09px;
     height: 19px;
 }
 
@@ -83,8 +75,6 @@ p,
     height: 49px;
     width: 409px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     margin: 20px 0px 32px 55px;
 }
 
@@ -109,12 +99,15 @@ p,
     padding: 14px 16px 14px 16px;
 }
 
+/*boutton caché qui apparaitra 
+a la place du boutton'rechercher'*/
 #button2 {
     background: #0065FC;
     visibility: hidden;
     border: 1px solid #0065FC;
-    border-radius: 0px 15px 15px 0px;
-    padding: 16px;
+    border-radius: 15px;
+    padding: 15px 16px 17px 16px;
+    margin-left: -13px;
 }
 
 /*loupe*/
@@ -132,13 +125,10 @@ p,
     padding: 14px 18px 17px 18px;
     margin-top: 0px;
     font-size: 1.1em;
-
 }
 
 /*mini menu en haut a droite*/
 #menu__right {
-
-
     display: flex;
 }
 
@@ -172,13 +162,12 @@ logo i */
     align-items: center;
     justify-content: center;
     margin-right: 11px;
-    margin-top: -2.5px;
+    margin-top: -5.5px;
     width: 4px;
     height: 12px;
     border: 1px solid #D9D9D9;
     border-radius: 50%;
     padding: 5px 10px 7px 10px;
-
 }
 
 .menu__filter {
@@ -198,6 +187,7 @@ logo i */
 
 .subtitle__filter {
     margin-left: 10px;
+    margin-top: -2px;
 }
 
 .filter {
@@ -207,8 +197,6 @@ logo i */
 
 .filter__and__logo {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     border: 2px solid #D9D9D9;
     border-radius: 25px;
     padding: 15px;
@@ -221,12 +209,10 @@ logo i */
 /* les 2 conténaires, lodging et popular*/
 .lodging__and__popular__sections {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
 }
 
 .container__lodging {
-    width: 880px;
+    width: 924px;
     height: 626px;
     margin-left: 50px;
     margin-right: 40px;
@@ -237,10 +223,10 @@ logo i */
 #title__lodging {
     margin: 40px 562px 23px 40px;
     white-space: nowrap;
+    width: 334px;
 }
 
 section+h1 {
-
     grid-column: 1 / 2;
     grid-row: 1 / 2;
 }
@@ -251,7 +237,6 @@ section+h1 {
     grid-template-rows: repeat(2, 199px);
     grid-gap: 30px;
     justify-content: center;
-    align-content: center;
 }
 
 .child__lodging {
@@ -272,30 +257,21 @@ section+h1 {
 
 .star__lodging {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-
 }
 
 .subtitle__lodging {
     display: flex;
     flex-direction: column;
     margin-left: 16px;
-
 }
 
 .afficher__plus {
-
-    white-space: nowrap;
     margin-left: 40px;
     margin-top: 45px;
     position: absolute;
-
-
 }
 
 .section__popular {
-
     height: 625px;
     background: #F2F2F2;
     border-radius: 20px;
@@ -308,16 +284,12 @@ section+h1 {
     width: 420px;
     gap: 35px;
     margin-top: 30px;
-
 }
 
 #title__popular {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    margin-left: 37px;
-    margin-top: 41px;
-    margin-right: 42px;
+    margin: 41px 35px 0px 37px;
 }
 
 /*icon statistic*/
@@ -328,7 +300,6 @@ section+h1 {
 
 .child__popular {
     display: flex;
-    flex-direction: row;
     background: #FFFFFF;
     border-radius: 20px;
     height: 144px;
@@ -355,29 +326,22 @@ section+h1 {
 pour mettre etoiles en bas */
 .popular__star {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    margin: 33px 0px 12px 0px;
+    margin: 40px 0px 12px 0px;
 }
 
 .section__activity {
     width: 1337px;
     height: 493px;
-    margin: 60px 53px 0px 50px;
-
+    margin: 60px 0px 0px 68px;
 }
 
 #title__activity {
-    white-space: nowrap;
     margin: 60px 0px 18.47px 0px;
 }
 
 .container__activity {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: space-between;
-
 }
 
 .article__activity {
@@ -388,7 +352,6 @@ pour mettre etoiles en bas */
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
-
 }
 
 .picture__activity {
@@ -399,10 +362,7 @@ pour mettre etoiles en bas */
 }
 
 .subtitle__activity {
-
-
-    padding: 5% 0px 5% 20px;
-
+    padding: 6% 0px 0px 20px;
     white-space: wrap;
 }
 
@@ -410,11 +370,10 @@ footer {
     background: #F2F2F2;
     margin: 61px 50px 0px 50px;
     height: 225px;
-    width: 1339px;
+    width: 1065px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 0px 300px 20px 20px;
 }
 
 a {
@@ -426,7 +385,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 12px;
-    margin-top: 45px;
+    margin-top: 20px;
 }
 
 /*format tablette*/
@@ -448,8 +407,9 @@ a {
     .section__popular {
         height: 278px;
         margin: 53px 70px 70px 70px;
-        width: 865px;
+        width: 884px;
         padding-left: 20px;
+        padding-right: 20px;
     }
 
     #title__popular {
@@ -458,15 +418,10 @@ a {
 
     .container__article__popular {
         flex-direction: row;
-        width: 880px;
-    }
-
-    .subtitle__child__popular {
-        flex-wrap: nowrap;
+        width: 924px;
     }
 
     .picture__popular {
-
         object-fit: cover;
         Width: 96px;
         Height: 134px;
@@ -474,12 +429,12 @@ a {
 
     .popular__star {
         margin-bottom: 10%;
-        margin-top: 0px;
+
     }
 
     .child__popular {
         height: 144px;
-        width: 252px;
+        width: 274px;
     }
 
     .subtitle__child__popular {
@@ -494,13 +449,8 @@ a {
     .section__activity {
         width: 880px;
         height: 330px;
-        margin: 0px 73px 0px 73px;
+        margin: 0px 0px 0px 87px;
     }
-
-    .subtitle__activity {
-        padding: ;
-    }
-
 
     .article__activity {
         height: 267px;
@@ -513,29 +463,23 @@ a {
     }
 
     footer {
-        width: 880px;
+        width: 755px;
+        padding-right: 150px;
+
         margin-left: 70px;
+        height: 143px;
     }
 }
 
 /*format telephone*/
 @media (max-width: 768px) {
-    .main__title
-
-    /*pour faire revenir le texte 
-    a la ligne*/
-        {
-        width: 300px;
-        margin-left: 20px;
-    }
-
     .menu__container__1 {
         display: block;
         margin: 0px;
     }
 
     #logo {
-        margin: 20px 55% 0px 45%;
+        margin: 30px 55% 0px 45%;
     }
 
     .activity {
@@ -545,7 +489,7 @@ a {
     .small__header__menu {
         margin: 0px;
         padding-bottom: 23.09px;
-        padding-top: 48.5px;
+        padding-top: 30px;
         box-sizing: border-box;
         width: 50%;
         border-bottom: 3px solid #F2F2F2;
@@ -562,40 +506,67 @@ a {
         padding-bottom: 20.09px;
     }
 
+    /*pour faire revenir le texte 
+    a la ligne*/
+    .main__title {
+        min-width: 300px;
+        margin: 30px 20px 0px 20px;
+    }
+
     .form {
         margin-left: 20px;
-        margin-right: 0px;
-        width: 332px;
+        margin-right: 20px;
+        width: 100%;
     }
 
     .menu__filter {
-        height: 153px;
-        width: 360px;
-        margin-left: 14px;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+        width: 100vw;
+        margin: 20px 20px 0px 20px;
+        gap: 10px;
     }
 
     .subtitle__filter {
-        font-size: 11px;
-        line-height: 13px;
-        margin-top: 2px;
-        margin-left: 5px;
+        font-size: 14px;
+        line-height: 16.44px;
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+
+    .position__queries-phone {
+        margin-left: 17px;
     }
 
     .filter__and__logo {
-        width: 145px;
-        height: 17.12px;
-        padding: 19px 0px 18px 13px;
-        margin: 15px 7px 0px 7px;
+        padding: 16px 11px 15.5px 19px;
+        width: 130px;
     }
 
-    .filter {
-        margin-right: 90%;
-        margin-left: 20px;
+    .bubble__1 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .bubble__2 {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .bubble__3 {
+        padding: 16px 11px 15.5px 19px;
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .bubble__4 {
+        grid-column: 2;
+        grid-row: 3;
     }
 
     .phrase__info {
-        margin: 61px 22px 42px 20px;
+        margin: 35px 22px 42px 20px;
     }
 
     #phrase__informative {
@@ -614,54 +585,58 @@ a {
         margin-right: 20px;
     }
 
-    /*inverser l'ordre
-    des sections*/
+    /*inverser l'ordredes sections*/
     .lodging__and__popular__sections {
         flex-direction: column-reverse;
     }
 
     .section__popular {
-        width: 375px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        min-width: 375px;
         height: 580px;
         margin: 0px;
-
+        padding: 0px 10px 30px 10px;
     }
 
     .container__article__popular {
         flex-direction: column;
-        align-items: start;
-        gap: 11px;
+        align-items: center;
+        gap: 15px;
+        width: 100%;
     }
 
     .child__popular {
-        height: 144px;
         width: 334px;
-
     }
 
     #title__popular {
-        margin: 28px 45px 26px 0px;
+        margin: 28px 20px 26px 20px;
+        width: 334px;
     }
 
     .container__lodging {
-        width: 355px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        min-width: 355px;
         height: 1400px;
-        padding: 10px;
-        margin-left: 0px;
-        margin-bottom: 50px;
+        padding: 10px 20px 10px 0px;
+        margin: 0px 0px 50px 0px;
         background-color: #ffffff;
     }
 
     .grid__container__lodging {
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-content: center;
     }
 
     #title__lodging {
-        margin: 26px 0px 19px 10px;
+        margin: 26px 0px 19px 0px;
     }
 
     .child__lodging {
@@ -683,17 +658,23 @@ a {
 
     .container__activity {
         flex-direction: column;
+        align-items: center;
     }
 
     .section__activity {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         height: auto;
-        width: auto;
-        margin: 20px 0px 80px 20px;
+        min-width: 355px;
+        width: 100vw;
+        margin: 0px 0px 40px 0px;
     }
 
     #title__activity {
         margin-top: 75px;
         margin-bottom: 23px;
+        width: 334px;
     }
 
     .article__activity {
@@ -707,13 +688,16 @@ a {
         width: 334px;
     }
 
+    /*border box car sinon footer
+fais plus de 100% de la largeur
+a cause du padding*/
     footer {
-        width: 377px;
+        width: 100vw;
         height: auto;
         margin: 0px;
         flex-direction: column;
-        flex-wrap: nowrap;
         padding-left: 30px;
         padding-bottom: 30px;
+        box-sizing: border-box;
     }
 }
