@@ -263,6 +263,8 @@ section+h1 {
     display: flex;
     flex-direction: column;
     margin-left: 16px;
+    gap: 3px;
+    margin-top: -3px
 }
 
 .afficher__plus {
@@ -429,7 +431,6 @@ a {
 
     .popular__star {
         margin-bottom: 10%;
-
     }
 
     .child__popular {
@@ -504,6 +505,7 @@ a {
         border-bottom: 3px solid #0065FC;
         border-top: solid #ffffff;
         padding-bottom: 20.09px;
+        padding-top: 30px;
     }
 
     /*pour faire revenir le texte 
