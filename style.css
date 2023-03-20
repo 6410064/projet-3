@@ -1,7 +1,8 @@
 body {
     max-width: 1400px;
     /* centrage horizontal */
-    margin: auto;
+    margin: 0px 50px;
+
 }
 
 /*polices*/
@@ -56,7 +57,6 @@ p,
 .menu__container__1 {
     display: flex;
     justify-content: space-between;
-    margin-left: 55px;
 }
 
 /*logo seulement*/
@@ -67,7 +67,7 @@ p,
 
 /*Trouvez votre hébergement pour des vacances de rêve*/
 .main__title {
-    margin: 63px 0px 20px 55px;
+    margin: 63px 0px 20px 0px;
 }
 
 /*formulaire*/
@@ -75,7 +75,7 @@ p,
     height: 49px;
     width: 409px;
     display: flex;
-    margin: 20px 0px 32px 55px;
+    margin: 20px 0px 32px 0px;
 }
 
 #research {
@@ -150,7 +150,7 @@ a la place du boutton'rechercher'*/
 disponibles dans cette ville+
 logo i */
 .phrase__info {
-    margin: 50px 0px 37px 59px;
+    margin: 50px 0px 37px 0px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -170,14 +170,20 @@ logo i */
     padding: 5px 10px 7px 10px;
 }
 
-.menu__filter {
+.word__filter {
+    margin-top: 14px;
+}
+
+.menu__filter__only__bubble {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    gap: 15px;
+}
+
+.menu__filter {
+    gap: 15px;
+    display: flex;
     list-style-type: none;
     height: 50px;
-    width: 914px;
-    margin-left: 62px;
 }
 
 .icon__filter {
@@ -209,19 +215,18 @@ logo i */
 /* les 2 conténaires, lodging et popular*/
 .lodging__and__popular__sections {
     display: flex;
+    JUSTIFY-CONTENT: space-between;
 }
 
 .container__lodging {
-    width: 924px;
+    width: 65%;
     height: 626px;
-    margin-left: 50px;
-    margin-right: 40px;
     background: #F2F2F2;
     border-radius: 20px;
 }
 
 #title__lodging {
-    margin: 40px 562px 23px 40px;
+    margin: 40px 500px 23px 30px;
     white-space: nowrap;
     width: 334px;
 }
@@ -233,16 +238,17 @@ section+h1 {
 
 .grid__container__lodging {
     display: grid;
-    grid-template-columns: repeat(3, 246px);
+    grid-template-columns: repeat(3, 30%);
     grid-template-rows: repeat(2, 199px);
     grid-gap: 30px;
+    padding: 30px;
     justify-content: center;
 }
 
 .child__lodging {
     background: #FFFFFF;
     height: 199px;
-    width: 250px;
+    width: 100%;
     border-radius: 20px;
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
 }
@@ -251,8 +257,10 @@ section+h1 {
     border: 5px solid #FFFFFF;
     border-radius: 20px 20px 0px 0px;
     height: 124px;
-    width: 240px;
+    width: 100%;
     object-fit: cover;
+    box-sizing: border-box;
+
 }
 
 .star__lodging {
@@ -269,11 +277,11 @@ section+h1 {
 
 .afficher__plus {
     margin-left: 40px;
-    margin-top: 45px;
     position: absolute;
 }
 
 .section__popular {
+    width: 32%;
     height: 625px;
     background: #F2F2F2;
     border-radius: 20px;
@@ -283,7 +291,7 @@ section+h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 420px;
+    width: 100%;
     gap: 35px;
     margin-top: 30px;
 }
@@ -305,50 +313,53 @@ section+h1 {
     background: #FFFFFF;
     border-radius: 20px;
     height: 144px;
-    width: 80%;
+    width: 85%;
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
 }
 
 .picture__popular {
+    object-fit: cover;
     height: 135px;
-    width: 132px;
+    width: 33%;
     border-radius: 20px 0px 0px 20px;
     border: 5px solid #FFFFFF;
 }
 
-.subtitle__child__popular {
+.subtitle__child__popular__and__stars {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 16px 13px 0px 15px;
+    margin: 2% 2% 0% 3%;
 }
 
 /* margin top elevé
 pour mettre etoiles en bas */
 .popular__star {
     display: flex;
-    margin: 40px 0px 12px 0px;
+    margin: 0px 0px 12px 0px;
 }
 
 .section__activity {
-    width: 1337px;
+    width: 100%;
     height: 493px;
-    margin: 60px 0px 0px 68px;
+    margin: 60px 0px 0px 0px;
 }
 
 #title__activity {
-    margin: 60px 0px 18.47px 0px;
+    margin: 60px 0px 18.47px 30px;
 }
 
 .container__activity {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 .article__activity {
+
     height: 444px;
-    width: 302px;
+    max-width: 297px;
     border-radius: 20px;
     background: #FFFFFF;
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
@@ -357,25 +368,27 @@ pour mettre etoiles en bas */
 }
 
 .picture__activity {
-    height: 389px;
-    width: 302px;
+    height: 85%;
+    width: 100%;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
 }
 
 .subtitle__activity {
-    padding: 6% 0px 0px 20px;
+    padding: 0px 0px 0px 20px;
     white-space: wrap;
+    margin: 17px auto;
 }
 
 footer {
+    box-sizing: border-box;
     background: #F2F2F2;
-    margin: 61px 50px 0px 50px;
+    margin-top: 61px;
     height: 225px;
-    width: 1065px;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-    padding: 0px 300px 20px 20px;
+    justify-content: space-evenly;
+    padding: 0px 280px 20px 20px;
 }
 
 a {
@@ -392,40 +405,43 @@ a {
 
 /*format tablette*/
 @media (max-width: 992px) {
+    .menu__filter {
+        flex-direction: column;
+    }
+
+    .word__filter {
+        margin-top: 0px;
+    }
 
     .lodging__and__popular__sections {
         flex-direction: column;
     }
 
-    .menu__filter {
-        margin-left: 70px;
-        width: 846px;
-    }
-
     .container__lodging {
-        margin-left: 70px;
+        width: 100%;
     }
 
     .section__popular {
         height: 278px;
-        margin: 53px 70px 70px 70px;
-        width: 884px;
-        padding-left: 20px;
-        padding-right: 20px;
+        margin: 53px 0px 70px 0px;
+        width: 100%;
+        padding: 0px;
     }
 
     #title__popular {
-        margin-left: 0px;
+        margin-left: 30px;
     }
 
     .container__article__popular {
         flex-direction: row;
-        width: 924px;
+        justify-content: center;
+        padding: 0px 30px;
+        box-sizing: border-box;
+
     }
 
     .picture__popular {
         object-fit: cover;
-        Width: 96px;
         Height: 134px;
     }
 
@@ -435,11 +451,15 @@ a {
 
     .child__popular {
         height: 144px;
-        width: 274px;
+        width: 30%;
     }
 
     .subtitle__child__popular {
-        margin-top: 12px;
+        margin: 3%;
+    }
+
+    .container__activity {
+        justify-content: space-around;
     }
 
     #title__activity {
@@ -448,9 +468,9 @@ a {
     }
 
     .section__activity {
-        width: 880px;
+        width: 100%;
         height: 330px;
-        margin: 0px 0px 0px 87px;
+        margin: 60px 0px 0px 0px;
     }
 
     .article__activity {
@@ -458,22 +478,28 @@ a {
         width: 182px;
     }
 
+    .subtitle__activity {
+        margin: 15px 0px 0px 0px;
+    }
+
     .picture__activity {
-        height: 211px;
+        height: 74%;
         width: 182px;
     }
 
     footer {
-        width: 755px;
-        padding-right: 150px;
 
-        margin-left: 70px;
+        padding-right: 150px;
         height: 143px;
     }
 }
 
 /*format telephone*/
-@media (max-width: 768px) {
+@media (max-width: 767.9px) {
+    body {
+        margin: 0px;
+    }
+
     .menu__container__1 {
         display: block;
         margin: 0px;
@@ -516,17 +542,24 @@ a {
     }
 
     .form {
-        margin-left: 20px;
-        margin-right: 20px;
-        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
     }
 
     .menu__filter {
+        height: auto;
+    }
+
+    .word__filter {
+        margin-left: 20px
+    }
+
+    .menu__filter__only__bubble {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        height: auto;
-        width: 100vw;
-        margin: 20px 20px 0px 20px;
+        width: 91vw;
+        margin: 20px auto 0px auto;
         gap: 10px;
     }
 
@@ -546,26 +579,7 @@ a {
         width: 130px;
     }
 
-    .bubble__1 {
-        grid-column: 1;
-        grid-row: 2;
-    }
 
-    .bubble__2 {
-        grid-column: 2;
-        grid-row: 2;
-    }
-
-    .bubble__3 {
-        padding: 16px 11px 15.5px 19px;
-        grid-column: 1;
-        grid-row: 3;
-    }
-
-    .bubble__4 {
-        grid-column: 2;
-        grid-row: 3;
-    }
 
     .phrase__info {
         margin: 35px 22px 42px 20px;
@@ -584,7 +598,6 @@ a {
     /*loupe*/
     #button2 {
         visibility: visible;
-        margin-right: 20px;
     }
 
     /*inverser l'ordredes sections*/
@@ -599,9 +612,9 @@ a {
         align-items: center;
         width: 100vw;
         min-width: 375px;
-        height: 580px;
+        height: auto;
         margin: 0px;
-        padding: 0px 10px 30px 10px;
+        padding-bottom: 30px;
     }
 
     .container__article__popular {
@@ -609,15 +622,16 @@ a {
         align-items: center;
         gap: 15px;
         width: 100%;
+        padding: 0px;
     }
 
     .child__popular {
-        width: 334px;
+        width: 91vw;
     }
 
     #title__popular {
-        margin: 28px 20px 26px 20px;
-        width: 334px;
+        margin: 28px 20px;
+        width: 91vw;
     }
 
     .container__lodging {
@@ -627,10 +641,11 @@ a {
         width: 100vw;
         min-width: 355px;
         height: 1400px;
-        padding: 10px 20px 10px 0px;
+        padding: 10px 0px;
         margin: 0px 0px 50px 0px;
         background-color: #ffffff;
     }
+
 
     .grid__container__lodging {
         display: flex;
@@ -638,20 +653,21 @@ a {
     }
 
     #title__lodging {
-        margin: 26px 0px 19px 0px;
+        margin: 28px 20px;
+        width: 91vw;
     }
 
     .child__lodging {
         background: #FFFFFF;
         height: 199px;
-        width: 335px;
+        width: 91vw;
     }
 
     .picture__child__lodging {
         border: 5px solid #FFFFFF;
         border-radius: 20px 20px 0px 0px;
         height: 124px;
-        width: 325px;
+        width: 100%;
     }
 
     .afficher__plus {
@@ -659,8 +675,10 @@ a {
     }
 
     .container__activity {
+        display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
 
     .section__activity {
@@ -668,26 +686,26 @@ a {
         flex-direction: column;
         align-items: center;
         height: auto;
-        min-width: 355px;
         width: 100vw;
+
         margin: 0px 0px 40px 0px;
     }
 
     #title__activity {
-        margin-top: 75px;
-        margin-bottom: 23px;
-        width: 334px;
+        margin: 75px 20px 23px 20px;
+        width: 91vw;
     }
 
     .article__activity {
         margin-bottom: 24px;
         height: 190px;
-        width: 334px;
+        max-width: 1000px;
+        width: 91vw;
     }
 
     .picture__activity {
         height: 134px;
-        width: 334px;
+        width: 100%;
     }
 
     /*border box car sinon footer
