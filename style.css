@@ -226,7 +226,7 @@ logo i */
 }
 
 #title__lodging {
-    margin: 40px 500px 23px 30px;
+    margin: 30px 500px 0px 30px;
     white-space: nowrap;
     width: 334px;
 }
@@ -277,7 +277,6 @@ section+h1 {
 
 .afficher__plus {
     margin-left: 40px;
-    position: absolute;
 }
 
 .section__popular {
@@ -359,7 +358,7 @@ pour mettre etoiles en bas */
 .article__activity {
 
     height: 444px;
-    max-width: 297px;
+    width: 297px;
     border-radius: 20px;
     background: #FFFFFF;
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
@@ -375,9 +374,10 @@ pour mettre etoiles en bas */
 }
 
 .subtitle__activity {
-    padding: 0px 0px 0px 20px;
+    padding: 0;
+    margin: 22px 0px 0px 30px;
     white-space: wrap;
-    margin: 17px auto;
+
 }
 
 footer {
@@ -387,7 +387,7 @@ footer {
     height: 225px;
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 0px 280px 20px 20px;
 }
 
@@ -644,16 +644,19 @@ a {
         padding: 10px 0px;
         margin: 0px 0px 50px 0px;
         background-color: #ffffff;
+
     }
 
 
     .grid__container__lodging {
         display: flex;
         flex-direction: column;
+        padding: 15px 0px 0px 0px;
+        gap: 15px;
     }
 
     #title__lodging {
-        margin: 28px 20px;
+        margin: 35px 0px 0px 8px;
         width: 91vw;
     }
 
@@ -692,12 +695,12 @@ a {
     }
 
     #title__activity {
-        margin: 75px 20px 23px 20px;
+        margin: 75px 0px 30px 0px;
         width: 91vw;
     }
 
     .article__activity {
-        margin-bottom: 24px;
+        margin-bottom: 15px;
         height: 190px;
         max-width: 1000px;
         width: 91vw;
