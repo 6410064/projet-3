@@ -1,8 +1,6 @@
 body {
+    margin: 0 50px;
     max-width: 1400px;
-    /* centrage horizontal */
-    margin: 0px 50px;
-
 }
 
 /*polices*/
@@ -220,7 +218,7 @@ logo i */
 
 .container__lodging {
     width: 65%;
-    height: 626px;
+    height: 614px;
     background: #F2F2F2;
     border-radius: 20px;
 }
@@ -281,7 +279,7 @@ section+h1 {
 
 .section__popular {
     width: 32%;
-    height: 625px;
+    height: 614px;
     background: #F2F2F2;
     border-radius: 20px;
 }
@@ -298,7 +296,7 @@ section+h1 {
 #title__popular {
     display: flex;
     justify-content: space-between;
-    margin: 41px 35px 0px 37px;
+    margin: 30px 35px 0px 37px;
 }
 
 /*icon statistic*/
@@ -346,7 +344,7 @@ pour mettre etoiles en bas */
 }
 
 #title__activity {
-    margin: 60px 0px 18.47px 30px;
+    margin: 60px 0px 30px 30px;
 }
 
 .container__activity {
@@ -376,8 +374,6 @@ pour mettre etoiles en bas */
 .subtitle__activity {
     padding: 0;
     margin: 22px 0px 0px 30px;
-    white-space: wrap;
-
 }
 
 footer {
