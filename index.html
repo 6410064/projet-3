@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;600;700&display=swap"
       rel="stylesheet"
       type="text/css"
     />
@@ -27,7 +27,9 @@
   <body>
     <header>
       <div class="menu__container__1">
-        <img id="logo" src="./Images/logo/Booki.png" alt="Booki logo" />
+        <div class="logo__container">
+          <img id="logo" src="./Images/logo/Booki.png" alt="Booki logo" />
+        </div>
         <div id="menu__right">
           <a href="#title__lodging" class="small__header__menu">Hébergements</a>
           <a href="#title__activity" class="small__header__menu">Activités</a>
@@ -55,24 +57,32 @@
           <strong>Filtres</strong>
         </span>
         <div class="menu__filter__only__bubble">
-          <a class="filter__and__logo" href="#">
-            <i class="fa-sharp fa-solid fa-money-bill-wave icon__filter"> </i>
-            <strong class="subtitle__filter">Économique </strong>
-          </a>
-          <a class="filter__and__logo" href="#">
-            <i class="fa-solid fa-person icon__filter"></i>
-            <strong class="subtitle__filter position__queries-phone"
-              >Familial</strong
-            >
-          </a>
-          <a class="filter__and__logo" href="#">
-            <i class="fa-solid fa-heart icon__filter"></i>
-            <strong class="subtitle__filter">Romantique </strong>
-          </a>
-          <a class="filter__and__logo" href="#">
-            <i class="fa-solid fa-dog icon__filter"></i>
-            <strong class="subtitle__filter">Nos pépites</strong>
-          </a>
+          <div class="filter__and__logo__left__container">
+            <a class="filter__and__logo" href="#">
+              <i class="fa-sharp fa-solid fa-money-bill-wave icon__filter"> </i>
+              <strong class="subtitle__filter">Économique </strong>
+            </a>
+          </div>
+          <div class="filter__and__logo__right__container">
+            <a class="filter__and__logo" href="#">
+              <i class="fa-solid fa-person icon__filter"> </i>
+              <strong class="subtitle__filter position__queries-phone"
+                >Familial</strong
+              >
+            </a>
+          </div>
+          <div class="filter__and__logo__left__container">
+            <a class="filter__and__logo" href="#">
+              <i class="fa-solid fa-heart icon__filter"> </i>
+              <strong class="subtitle__filter">Romantique </strong>
+            </a>
+          </div>
+          <div class="filter__and__logo__right__container">
+            <a class="filter__and__logo" href="#">
+              <i class="fa-solid fa-dog icon__filter"> </i>
+              <strong class="subtitle__filter">Nos pépites</strong>
+            </a>
+          </div>
         </div>
       </nav>
       <div class="phrase__info">
@@ -280,7 +290,7 @@
             <img
               class="picture__activity"
               alt="vieux port"
-              src="./Images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+              src="./Images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
             />
             <h3 class="subtitle__activity">Vieux-Port</h3>
           </article>
@@ -290,7 +300,7 @@
             <img
               class="picture__activity"
               alt="Fort de Pomègues"
-              src="./Images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+              src="./Images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
             />
             <h3 class="subtitle__activity">Fort de Pomègues</h3>
           </article>
@@ -300,7 +310,7 @@
             <img
               class="picture__activity"
               alt="Parc national Calanques"
-              src="./Images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+              src="./Images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
             />
             <h3 class="subtitle__activity">Parc national des Calanques</h3>
           </article>

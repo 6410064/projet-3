@@ -10,21 +10,21 @@ body {
 
 h1,
 h2 {
-    font-weight: 1000;
+
     font-size: 22px;
     line-height: 26px;
     margin: 0px;
 }
 
 h3 {
-    font-weight: 800;
+
     font-size: 16px;
     line-height: 19px;
     margin: 0px;
 }
 
 strong #button {
-    font-weight: 800;
+
     font-size: 17px;
     line-height: 21px;
     margin: 0px;
@@ -78,7 +78,7 @@ p,
 
 #research {
     border: 1px solid #F2F2F2;
-    padding-left: 19px;
+    padding-left: 24px;
     width: 286px;
 }
 
@@ -327,7 +327,7 @@ section+h1 {
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 2% 2% 0% 3%;
+    margin: 1% 2% 0% 3%;
 }
 
 /* margin top elevé
@@ -356,7 +356,7 @@ pour mettre etoiles en bas */
 .article__activity {
 
     height: 444px;
-    width: 297px;
+    width: 225px;
     border-radius: 20px;
     background: #FFFFFF;
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
@@ -433,7 +433,6 @@ a {
         justify-content: center;
         padding: 0px 30px;
         box-sizing: border-box;
-
     }
 
     .picture__popular {
@@ -475,7 +474,7 @@ a {
     }
 
     .subtitle__activity {
-        margin: 15px 0px 0px 0px;
+        margin: 16px 19px;
     }
 
     .picture__activity {
@@ -484,7 +483,6 @@ a {
     }
 
     footer {
-
         padding-right: 150px;
         height: 143px;
     }
@@ -501,8 +499,14 @@ a {
         margin: 0px;
     }
 
-    #logo {
-        margin: 30px 55% 0px 45%;
+    .logo__container {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
+    #research {
+        width: 100%;
     }
 
     .activity {
@@ -545,18 +549,33 @@ a {
 
     .menu__filter {
         height: auto;
+        align-items: center;
     }
 
     .word__filter {
-        margin-left: 20px
+        margin-right: 83%;
+        margin-left: 20px;
+
     }
 
     .menu__filter__only__bubble {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        width: 91vw;
-        margin: 20px auto 0px auto;
+        width: 91%;
         gap: 10px;
+    }
+
+    .filter__and__logo__left__container {
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+
+    .filter__and__logo__right__container {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: end;
     }
 
     .subtitle__filter {
@@ -574,8 +593,6 @@ a {
         padding: 16px 11px 15.5px 19px;
         width: 130px;
     }
-
-
 
     .phrase__info {
         margin: 35px 22px 42px 20px;
@@ -640,9 +657,7 @@ a {
         padding: 10px 0px;
         margin: 0px 0px 50px 0px;
         background-color: #ffffff;
-
     }
-
 
     .grid__container__lodging {
         display: flex;
@@ -705,6 +720,10 @@ a {
     .picture__activity {
         height: 134px;
         width: 100%;
+    }
+
+    .subtitle__activity {
+        margin-left: 19px;
     }
 
     /*border box car sinon footer
